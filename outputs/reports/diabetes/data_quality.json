@@ -1,0 +1,63 @@
+{
+  "task": "diabetes",
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    "269 duplicate row(s) found."
+  ],
+  "info": {
+    "rows": 520,
+    "columns": [
+      "age",
+      "gender",
+      "polyuria",
+      "polydipsia",
+      "sudden_weight_loss",
+      "weakness",
+      "polyphagia",
+      "genital_thrush",
+      "visual_blurring",
+      "itching",
+      "irritability",
+      "delayed_healing",
+      "partial_paresis",
+      "muscle_stiffness",
+      "alopecia",
+      "obesity",
+      "class"
+    ],
+    "shape": [
+      520,
+      17
+    ],
+    "duplicate_rows": 269,
+    "missing_values": {},
+    "target_distribution": {
+      "Positive": 320,
+      "Negative": 200
+    },
+    "infinite_value_columns": {},
+    "constant_columns": [],
+    "dtypes": {
+      "age": "int64",
+      "gender": "str",
+      "polyuria": "str",
+      "polydipsia": "str",
+      "sudden_weight_loss": "str",
+      "weakness": "str",
+      "polyphagia": "str",
+      "genital_thrush": "str",
+      "visual_blurring": "str",
+      "itching": "str",
+      "irritability": "str",
+      "delayed_healing": "str",
+      "partial_paresis": "str",
+      "muscle_stiffness": "str",
+      "alopecia": "str",
+      "obesity": "str",
+      "class": "str"
+    },
+    "imbalance_ratio": 1.6
+  },
+  "generated_at": "2026-10-29T14:16:51.472220"
+}

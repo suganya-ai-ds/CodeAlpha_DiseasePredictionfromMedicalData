@@ -1,0 +1,39 @@
+{
+  "task": "diabetes",
+  "dataset": "Early Stage Diabetes Risk Prediction (UCI)",
+  "source": "https://archive.uci.edu/dataset/529/early+stage+diabetes+risk+prediction+dataset",
+  "target_column": "class",
+  "target_definition": "520 survey-based records from Sylhet Diabetes Hospital, Bangladesh. 16 symptom-based binary/categorical features. Target: Positive / Negative diabetes classification.",
+  "feature_schema": [
+    "age",
+    "gender",
+    "polyuria",
+    "polydipsia",
+    "sudden_weight_loss",
+    "weakness",
+    "polyphagia",
+    "genital_thrush",
+    "visual_blurring",
+    "itching",
+    "irritability",
+    "delayed_healing",
+    "partial_paresis",
+    "muscle_stiffness",
+    "alopecia",
+    "obesity"
+  ],
+  "algorithm": "svm",
+  "best_params": {
+    "classifier__C": 10,
+    "classifier__gamma": "scale",
+    "classifier__kernel": "rbf"
+  },
+  "cv_folds": 5,
+  "cv_roc_auc": 0.9806115181115181,
+  "train_samples": 200,
+  "test_samples": 51,
+  "random_seed": 42,
+  "sklearn_version": "1.9.1",
+  "trained_at": "2026-10-29T14:17:17.100743",
+  "known_limitations": "Survey-based data from a single hospital; not a blood-test dataset. Features are self-reported symptoms, not clinical measurements."
+}

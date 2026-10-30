@@ -1,0 +1,36 @@
+{
+  "task": "heart_disease",
+  "dataset": "UCI Heart Disease (Cleveland)",
+  "source": "https://archive.ics.uci.edu/dataset/45/heart+disease",
+  "target_column": "target",
+  "target_definition": "303 patients (Cleveland subset). Target: presence of heart disease (original values 0-4 binarised: 0 = absent, 1-4 = present).",
+  "feature_schema": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "algorithm": "logistic_regression",
+  "best_params": {
+    "classifier__C": 1,
+    "classifier__max_iter": 1000,
+    "classifier__solver": "lbfgs"
+  },
+  "cv_folds": 5,
+  "cv_roc_auc": 0.8984032070988592,
+  "train_samples": 242,
+  "test_samples": 61,
+  "random_seed": 42,
+  "sklearn_version": "1.9.1",
+  "trained_at": "2026-10-29T14:16:28.610827",
+  "known_limitations": "Single-centre cohort (Cleveland Clinic). May not generalise to other populations. Many real-world missing values replaced in common CSV distributions \u2014 verify the copy in use."
+}

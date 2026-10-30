@@ -1,0 +1,1 @@
+# MEDSCOPE AI — config package

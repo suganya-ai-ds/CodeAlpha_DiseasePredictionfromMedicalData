@@ -1,0 +1,60 @@
+{
+  "task": "heart_disease",
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    "Missing values detected in columns: {'ca': 4, 'thal': 2}"
+  ],
+  "info": {
+    "rows": 303,
+    "columns": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal",
+      "target"
+    ],
+    "shape": [
+      303,
+      14
+    ],
+    "duplicate_rows": 0,
+    "missing_values": {
+      "ca": 4,
+      "thal": 2
+    },
+    "target_distribution": {
+      "0": 164,
+      "1": 139
+    },
+    "infinite_value_columns": {},
+    "constant_columns": [],
+    "dtypes": {
+      "age": "float64",
+      "sex": "float64",
+      "cp": "float64",
+      "trestbps": "float64",
+      "chol": "float64",
+      "fbs": "float64",
+      "restecg": "float64",
+      "thalach": "float64",
+      "exang": "float64",
+      "oldpeak": "float64",
+      "slope": "float64",
+      "ca": "float64",
+      "thal": "float64",
+      "target": "int64"
+    },
+    "imbalance_ratio": 1.18
+  },
+  "generated_at": "2026-10-29T14:16:09.364307"
+}
